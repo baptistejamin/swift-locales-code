@@ -20,13 +20,13 @@ print(IsoLocaleCodes.find(key: "NL").currency) //Dutch
 
 You can also search by locale name
 ```swift
-dump(IsoCountryCodes.searchByName(name: "Dutch")
+dump(IsoLocaleCodes.searchByName(name: "Dutch")
 
-dump(IsoCountryCodes.searchByLocal(name: "Français")
+dump(IsoLocaleCodes.searchByLocal(name: "Français")
 ```
 This returns a `IsoCountryInfo` struct:
 ```swift
-▿ IsoCountryCodes.IsoCountryInfo
+▿ IsoLocaleInfo
     - name: Dutch
     - local: Nederlands
     - alpha1: nl,
